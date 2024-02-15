@@ -137,9 +137,9 @@ text: text,
 contextInfo: {
 externalAdReply: {
 title: 'ALEXA BOT ♥',
-body: "مجموعتي على الواتساب 💖",
+body: "ALEXA BOT 💖",
 thumbnailUrl: 'https://chat.whatsapp.com/Fk1mt0Ui4AV0KEA8Dt49Xz',
-sourceUrl: 'https://chat.whatsapp.com/Fk1mt0Ui4AV0KEA8Dt49Xz',
+sourceUrl: 'https://instagram.com/Abdo_ziti',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
