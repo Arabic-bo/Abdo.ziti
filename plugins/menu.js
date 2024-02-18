@@ -138,7 +138,7 @@ contextInfo: {
 externalAdReply: {
 title: 'ALEXA BOT ♥',
 body: "مجموعتي على الواتساب 💖",
-thumbnailUrl: 'https://telegra.ph/file/4fbd9c7a53a10fd89d4e5.jpg',
+thumbnailUrl: 'https://telegra.ph/file/78366cefb09683a5d4193.png',
 sourceUrl: 'https://chat.whatsapp.com/Fk1mt0Ui4AV0KEA8Dt49Xz',
 mediaType: 1,
 renderLargerThumbnail: true
