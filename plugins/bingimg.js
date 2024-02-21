@@ -22,5 +22,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ["bimg"]
 handler.tags = ["drawing"]
 handler.command = ["bimg"]
+handler.register = true
 
 export default handler
