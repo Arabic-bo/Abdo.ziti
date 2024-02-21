@@ -161,7 +161,7 @@ conn.sendMessage(m.chat, {audio: { url: 'https://files.catbox.moe/9po9ml.mp3' },
 handler.help = ['menu']
 handler.tags = ['infobot']
 handler.command = ['menu','b','list'] 
-handler.register = false
+handler.register = true
 
 
 export default handler
