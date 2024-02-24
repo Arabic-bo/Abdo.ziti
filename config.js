@@ -10,9 +10,9 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['212644841682', 'alexa', true],
+  ['212644841682', 'oustoura', true],
 
-  ['212644841682','bobiza', true],
+  ['212644841682','oustoura', true],
   ['212644841682'],
   ['212644841682']
 ];
@@ -20,13 +20,13 @@ global.owner = [
 global.suittag = ['212644841682'];
 global.prems = ['212644841682'];
 
-global.packname = 'alexa bot';
-global.author = 'alexa';
-global.wm = 'alexa';
-global.titulowm = 'alexa';
-global.titulowm2 = `alexa`
-global.igfg = 'alexa';
-global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥\ninstagram.com/Abdo_ziti';
+global.packname = 'oustoura bot';
+global.author = 'oustoura';
+global.wm = 'oustoura';
+global.titulowm = 'oustoura';
+global.titulowm2 = `oustoura`
+global.igfg = 'oustoura';
+global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥\ninstagram.com/amin1_tech1igsh=YzljYTk1ODg3Zg==‎‏';
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
@@ -45,11 +45,11 @@ global.mes = d.toLocaleDateString('en', {month: 'long'});
 global.año = d.toLocaleDateString('en', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nALEXA`;
+global.wm2 = `${dia} ${fecha}\noustoura`;
 global.gt = 'ALEXA';
-global.mysticbot = 'The ALEXA';
-global.md = 'https://instagram.com/Abdo_ziti';
-global.mysticbot = 'https://instagram.com/Abdo_ziti';
+global.mysticbot = 'The OUSTOURA';
+global.md = 'https://instagram.com/amin1_tech1igsh=YzljYTk1ODg3Zg==‎‏';
+global.mysticbot = 'https://instagram.com/amin1_tech1igsh=YzljYTk1ODg3Zg==‎‏';
 global.waitt = '*[ ⏳ ] LOADING...*';
 global.waittt = '*[ ⏳ ] LOADING...*';
 global.waitttt = '*[ ⏳ ] LOADING...*';
