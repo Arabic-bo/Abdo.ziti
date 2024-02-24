@@ -136,14 +136,14 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'ALEXA BOT ♥',
+title: 'OUSTOURA BOT ♥',
 body: "مجموعتي على الواتساب 💖",
-thumbnailUrl: 'https://telegra.ph/file/78366cefb09683a5d4193.png',
-sourceUrl: 'https://chat.whatsapp.com/Fk1mt0Ui4AV0KEA8Dt49Xz',
+thumbnailUrl: 'https://telegra.ph/file/b841c5746f4a8dd507043.jpg',
+sourceUrl: 'https://chat.whatsapp.com/I8cG5mEjuphErovDpQdc7W',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
-conn.sendMessage(m.chat, {audio: { url: 'https://files.catbox.moe/9po9ml.mp3' }, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
+conn.sendMessage(m.chat, {audio: { url: 'https://a.uguu.se/fiGzEUgg.mp3' }, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
 
   
     /*conn.sendFile(m.chat, 'menu.png', text.trim(), m, null, )
