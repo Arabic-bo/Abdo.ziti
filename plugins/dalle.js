@@ -20,7 +20,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 };
 
-handler.help = ['dalle'];
+handler.help = ['dalle','صورة'];
 handler.tags = ['drawing'];
-handler.command = ['dalle'];
+handler.command = ['dalle','صورة'];
 export default handler;
