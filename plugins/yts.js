@@ -1,7 +1,7 @@
 import yts from 'yt-search'
 import fs from  'fs'
 let handler = async (m, {conn, text }) => {
-  if (!text) throw ' هذا الامر خاص بالبحث في اليوتوب وأخذ رابط الفيديو \n مثلا :\n *.yts*   noureddine ouafy whatsapp bot'
+  if (!text) throw ' هذا الامر خاص بالبحث في اليوتوب وأخذ رابط الفيديو \n مثلا :\n *.yts*   AMIN1 TECH1 whatsapp bot'
   await conn.reply(m.chat, global.wait, m)
   let results = await yts(text)
   let tes = results.all
@@ -15,7 +15,7 @@ let handler = async (m, {conn, text }) => {
 ↳ 👁 *_V :_* ${v.views}`}}).filter(v => v).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n' )
   conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg' , teks, m)
 }
-handler.help = [ 'yts' ] 
+handler.help = [ 'yts','بحث عن فيديو' ] 
 handler.tags = [ 'search']
-handler.command = [ 'yts' ,  'ytss' ] 
+handler.command = [ 'yts','بحث عن فيديو' ,  'ytss' ] 
 export default handler
