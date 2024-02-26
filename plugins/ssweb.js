@@ -19,9 +19,9 @@ if (command === 'sspc') {
 await conn.sendFile(m.chat, desktop.result, '',res, m, false)
 }
 }
-handler.help = ['ssweb']
+handler.help = ['ssweb','سكرين']
 handler.tags = ['tools']
-handler.command = /^(ssweb)$/i
+handler.command = /^('ssweb','سكرين')$/i
 
 handler.limit = false
 
